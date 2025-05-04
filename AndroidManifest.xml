@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tronwalletgenerator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TronWalletGenerator"
+        android:theme="@style/Theme.TronWalletGenerator">
+
+        <service android:name=".WalletGenerationService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+</manifest>
